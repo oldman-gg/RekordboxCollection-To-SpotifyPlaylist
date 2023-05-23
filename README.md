@@ -41,16 +41,16 @@ pip install -r requirements.txt
 4. Set up the environment variables by creating a file named `environment_variables.py` in the project root directory. Open the file and define the following variables:
 
 ```python
-spotify_client_id = 'your-client-id'
-spotify_client_secret = 'your-client-secret'
+spotify_client_id = 'your-client-id' #found on https://developer.spotify.com/
+spotify_client_secret = 'your-client-secret' #found on https://developer.spotify.com/
 rekordbox_csv_input = 'path-to-rekordbox-csv-file.csv'
 output = 'path-to-output-csv-file.csv'
 username = 'your-spotify-username'
 playlist_id = 'your-spotify-playlist-id'
-redirect_uri = 'your-redirect-uri'
+redirect_uri = 'your-redirect-uri' #try http://localhost:8080/callback
 ```
 
-Make sure to replace `'your-client-id'`, `'your-client-secret'`, `'path-to-rekordbox-csv-file.csv'`, `'path-to-output-csv-file.csv'`, `'your-spotify-username'`, `'your-spotify-playlist-id'`, and `'your-redirect-uri'` with the appropriate values.
+Make sure to replace `'your-client-id'`, `'your-client-secret'`, `'path-to-rekordbox-csv-file.csv'`, `'path-to-output-csv-file.csv'`, `'your-spotify-username'`, `'your-spotify-playlist-id'`, and `'your-redirect-uri'` with the appropriate values and add http://localhost:8080/callback to your redirect uri within your Spotify App settings.
 
 ### Usage
 
@@ -60,7 +60,7 @@ To use the script, simply run the following command:
 python Spotify_Main.py
 ```
 
-The script will start processing the Rekordbox CSV file and matching the tracks with their corresponding tracks on Spotify. The progress and any errors encountered will be displayed in the console. Once the matching process is complete, the updated CSV file will be saved to the specified output file.
+The script will start processing the Rekordbox CSV file and matching the tracks with their corresponding tracks on Spotify. The progress and any errors encountered will be displayed in the console. Once the matching process is complete, the updated CSV file will be saved to the specified output file and the tracks will be added to the specific playlist.
 
 ### Contributing
 
