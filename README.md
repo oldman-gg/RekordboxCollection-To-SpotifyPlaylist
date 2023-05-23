@@ -75,3 +75,7 @@ The script has basic error handling for file not found error and Spotipy excepti
 ## Customization
 
 You can customize the fuzzy matching threshold and the CSV file paths according to your needs.  I recommend using 95 from limited testing.
+
+## To Dos
+[ ] Add all of the songs that have an associated URI to a single Spotify playlist.
+
