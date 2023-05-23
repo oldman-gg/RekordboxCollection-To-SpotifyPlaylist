@@ -38,7 +38,7 @@ for index, query in enumerate(queries):
         spotify_song = track['name']
         spotify_artist = track['artists'][0]['name']  #assuming the first artist is the main artist
         spotify_query = f'{spotify_artist} {spotify_song}'
-        if fuzz.ratio(query.lower(), spotify_query.lower()) > 90:  #you can adjust the threshold as needed
+        if fuzz.ratio(query.lower(), spotify_query.lower()) > 95:  #you can adjust the threshold as needed
             df.loc[index, 'spotify_uri'] = track['uri']
             break  #stop checking other tracks once a match is found
 
