@@ -1,6 +1,8 @@
 # Rekordbox Collection Spotify URI Finder
 
-This script searches for Spotify URIs corresponding to the songs listed in a exported Rekordbox collection CSV file. The Spotify URIs are then added back into the CSV file. This is a utility script that is part of a larger project that is currently in progress.
+This script searches for Spotify URIs corresponding to the songs listed in a exported Rekordbox collection CSV file. The Spotify URIs are then added back into the CSV file. 
+
+Note: This is a utility script which is part of a larger in progress project
 
 The script uses the Spotipy, Pandas, and FuzzyWuzzy libraries to perform its functions.
 
