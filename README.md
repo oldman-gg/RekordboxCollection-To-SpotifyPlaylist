@@ -4,9 +4,9 @@ This script searches for Spotify URIs corresponding to the songs listed in a exp
 
 Note: This is a utility script which is part of a larger in progress project
 
+## Dependencies
 The script uses the Spotipy, Pandas, and FuzzyWuzzy libraries to perform its functions.
 
-## Dependencies
 - pandas
 - spotipy
 - fuzzywuzzy
