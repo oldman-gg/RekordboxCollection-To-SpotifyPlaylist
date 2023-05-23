@@ -8,6 +8,7 @@ The script uses the Spotipy, Pandas, and FuzzyWuzzy libraries to perform its fun
 - pandas
 - spotipy
 - fuzzywuzzy
+- python-Levenshtein
 
 You can install these dependencies via pip:
 
