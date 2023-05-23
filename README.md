@@ -1,4 +1,4 @@
-# Spotify Rekordbox URI Finder
+#Rekordbox Collection Spotify URI Finder
 
 This script searches for Spotify URIs corresponding to the songs listed in a exported Rekordbox CSV file. The Spotify URIs are then added back into the CSV file for further use.
 
