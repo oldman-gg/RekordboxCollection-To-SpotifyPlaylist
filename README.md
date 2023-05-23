@@ -35,7 +35,7 @@ redirect_uri = 'your-redirect-uri' #try http://localhost:8080/callback
 ```
 **Note:** In the project, you will see an example `environment_variables.py` titled `environment_variables_git.py`
 
-Note: Make sure that you add http://localhost:8080/callback to your redirect uri within your Spotify App settings.
+**Note:** Make sure that you add http://localhost:8080/callback to your redirect uri within your Spotify App settings.
 
 ### Usage
 To use the script, simply run the following command:
