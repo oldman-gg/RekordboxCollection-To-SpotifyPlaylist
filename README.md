@@ -16,6 +16,7 @@ Before using this script, make sure you have the following:
 - Python 3.x installed on your system.
 - The necessary dependencies: `pandas`, `spotipy`, `fuzzywuzzy`.
 - Rekordbox collection .csv file
+- Create a Spotify app by navigating to https://developer.spotify.com/dashboard and add http://localhost:8080/callback as your redirect uri
 
 To create the Rekordbox file, add the songs you want to a given Rekordbox playlist, Playlist > Export playlist to a file > Export playlist to a file (*.txt).
 Import the .txt file into a spreadsheet, I recommend Google Sheets as it auto detects the data schema, File > Export > .csv.  
