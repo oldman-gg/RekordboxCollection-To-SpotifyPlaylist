@@ -4,6 +4,8 @@
 
 This script allows you to match tracks from a Rekordbox CSV file with their corresponding tracks on Spotify, exports the Spotify URI to the corresponding row in .csv, and adds tracks to a Spotify playlist. It utilizes the Spotipy library, a Python wrapper for the Spotify Web API, and the fuzzywuzzy library for fuzzy string matching.
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0OC6SFLZ1RQ10WGwCkGRG9?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ### Features
 - Matches tracks from a Rekordbox CSV file with their corresponding tracks on Spotify.
 - Uses fuzzy string matching to handle slight variations in song names.
