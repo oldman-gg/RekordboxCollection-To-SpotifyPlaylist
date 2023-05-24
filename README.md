@@ -57,3 +57,6 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 - The Spotipy library: [https://spotipy.readthedocs.io](https://spotipy.readthedocs.io)
 - The fuzzywuzzy library: [https://github.com/seatgeek/fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
+
+### To Dos
+- Modify the function to not add songs that are already present therefore mitigating track duplicates in Spotify playlist
