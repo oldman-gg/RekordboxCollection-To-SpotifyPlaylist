@@ -17,7 +17,8 @@ Before using this script, make sure you have the following:
 - The necessary dependencies: `pandas`, `spotipy`, `fuzzywuzzy`.
 - Rekordbox collection .csv file
 
-To create the Rekordbox file, add the songs you want to a given Rekordbox playlist, Playlist > Export playlist to a file > Export playlist to a file (*.txt)  
+To create the Rekordbox file, add the songs you want to a given Rekordbox playlist, Playlist > Export playlist to a file > Export playlist to a file (*.txt).
+Import the .txt file into a spreadsheet, I recommend Google Sheets as it auto detects the data schema, File > Export > .csv.  
   
 
 ### Installation
@@ -31,10 +32,10 @@ git clone https://github.com/your-username/Rekordbox-Spotify-URI-Finder.git
 ```python
 spotify_client_id = 'your-client-id' #found on https://developer.spotify.com/
 spotify_client_secret = 'your-client-secret' #found on https://developer.spotify.com/
-username = 'your-spotify-username'
-playlist_id = 'your-spotify-playlist-id'
-rekordbox_csv_input = 'path-to-rekordbox-csv-file.csv'
-output = 'path-to-output-csv-file.csv'
+username = 'your-spotify-username' #found in account overview within Spotify profile
+playlist_id = 'your-spotify-playlist-id' #found within playlist URL
+rekordbox_csv_input = 'path-to-rekordbox-csv-file.csv' #Rekordbox .csv
+output = 'path-to-output-csv-file.csv' #desired output file
 redirect_uri = 'your-redirect-uri' #try http://localhost:8080/callback
 ```
 **Note:** In the project, you will see an example `environment_variables.py` titled `environment_variables_git.py`
