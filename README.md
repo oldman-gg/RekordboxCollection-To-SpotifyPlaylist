@@ -26,7 +26,7 @@ Import the .txt file into a spreadsheet, I recommend Google Sheets as it auto de
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Rekordbox-Spotify-URI-Finder.git
+git clone https://github.com/your-username/RekordboxCollection-To-SpotifyPlaylist.git
 ```
 
 2. Set up the environment variables by creating a file named `environment_variables.py`in the project root directory. Open the file and define the following variables:
