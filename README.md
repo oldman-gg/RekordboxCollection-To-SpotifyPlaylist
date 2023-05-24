@@ -15,6 +15,10 @@ Before using this script, make sure you have the following:
 
 - Python 3.x installed on your system.
 - The necessary dependencies: `pandas`, `spotipy`, `fuzzywuzzy`.
+- Rekordbox collection .csv file
+
+To create the Rekordbox file, add the songs you want to a given Rekordbox playlist, Playlist > Export playlist to a file > Export playlist to a file (*.txt)  
+  
 
 ### Installation
 1. Clone the repository:
