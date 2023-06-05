@@ -49,7 +49,7 @@ redirect_uri = 'your-redirect-uri' #try http://localhost:8080/callback
 ### Usage
 To use the script, simply run the following command:
 ```bash
-python Spotify_Main.py
+python Main.py
 ```
 The script will start processing the Rekordbox CSV file and matching the tracks with their corresponding tracks on Spotify. The progress and any errors encountered will be displayed in the console. Once the matching process is complete, the updated CSV file will be saved to the specified output file and the tracks will be added to the specific playlist.
 ### Contributing
