@@ -8,7 +8,7 @@ Curious about what I'm listening to?  Check out
 [Old Man G.G's Rekordbox Collection Spotify Playlist](https://open.spotify.com/playlist/0OC6SFLZ1RQ10WGwCkGRG9)
 ### Features
 - Matches tracks from a Rekordbox CSV file with their corresponding tracks on Spotify.
-- Uses fuzzy string matching to handle slight variations in song names.
+- Uses fuzzy string matching to handle slight variations in song and artist names.
 - Updates the CSV file with the Spotify URIs of the matching tracks.
 - Adds the matching tracks to a specified Spotify playlist.
 
