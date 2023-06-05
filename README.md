@@ -23,6 +23,7 @@ Before using this script, make sure you have the following:
 To create the Rekordbox file, add the songs you want to a given Rekordbox playlist, Playlist > Export playlist to a file > Export playlist to a file (*.txt).
 Import the .txt file into a spreadsheet, I recommend Google Sheets as it auto detects the data schema, File > Export > .csv.  
   
+Note: This script relies on accurate artist and titles of your Rekordbox collection.  To efficiently tag your songs, I recommend [MP3Tag](https://www.mp3tag.de/).
 
 ### Installation
 1. Clone the repository:
